@@ -1,0 +1,65 @@
+SR 1
+SSP 2
+SS 10
+P U
+GOTO 100 -200
+P D
+CF draw [
+M U R D L
+]
+CF itt [
+F draw
+M L
+F draw
+M L
+F draw
+M U
+F draw
+M U
+F draw
+M R
+F draw
+M R
+F draw
+M D
+F draw
+M D L2
+]
+CF itt2 [
+F itt
+M L
+F itt
+M L 
+F itt
+M U3 R2
+F itt
+M U3 R2
+F itt
+M R5
+F itt
+M R5
+F itt
+M D3 R2
+F itt
+]
+F itt2
+M D3 R2
+SS 90
+M L
+SS 10
+F itt2
+M D3 R3
+SS 90
+M L
+SS 10
+F itt2
+M U6 R2
+F itt2
+M U6 R2
+F itt2
+M D3 R11
+F itt2
+M D3 R10
+F itt2
+M D12 R2
+F itt2
